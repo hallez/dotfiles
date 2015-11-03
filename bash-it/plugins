@@ -1,12 +1,5 @@
 base
-chruby-auto
-chruby
-docker
-docker-machine
 git
 history
 osx
-ruby
 ssh
-tmux
-tmuxinator
