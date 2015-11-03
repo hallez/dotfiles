@@ -1,22 +1,16 @@
 ag
-coreutils
 chruby
-cloudfoundry-cli
-ctags-fishman --HEAD
-direnv
-findutils
+ghostscript
 git
 git-duet
 grep
 go
 htop
-jq
 macvim --with-lua
-phantomjs
-postgres
+pdfgrep
+python
+python3
+R
 ruby-install
-shellcheck
 watch
-wget
-wl
 vim --with-lua
