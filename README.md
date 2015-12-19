@@ -10,7 +10,7 @@ Open XCode and accept the license.
 Once XCode is installed and the license is accepted, run the following:
 
 ```sh
-git clone https://github.com/robdimsdale/dotfiles ~/dotfiles
+git clone https://github.com/hallez/dotfiles ~/dotfiles
 cd ~/dotfiles
 ./install
 ```
