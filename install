@@ -11,5 +11,6 @@ my_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 "${my_dir}/bash-it/install"
 "${my_dir}/vim/install"
 "${my_dir}/osx/install"
+"${my_dir}/R/install"
 
 echo "All installation scripts completed successfully"

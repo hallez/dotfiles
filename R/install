@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# Installs commonly-used R packages
+
+set -eux
+
+my_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+echo "  Setting up .Rprofile."
+rm -rf "${HOME}/.Rprofile"
+cp "${my_dir}/.Rprofile" "${HOME}/.Rprofile"
+
+R --no-save < "${my_dir}/install.R"
