@@ -1,5 +1,6 @@
 ag
 chruby
+findutils
 ghostscript
 git
 git-duet
@@ -12,5 +13,6 @@ python
 python3
 R
 ruby-install
+tree
 watch
 vim --with-lua
