@@ -6,3 +6,5 @@ alias solo="git solo --global"
 alias dci="git duet-commit"
 
 export EDITOR=vim
+
+export MEMOBCDIR=/Volumes/dml/hrzucker/memoBC/
