@@ -7,7 +7,7 @@ git-duet
 grep
 go
 htop
-macvim --with-lua
+neovim/neovim/neovim
 pdfgrep
 python
 python3
@@ -15,4 +15,3 @@ R
 ruby-install
 tree
 watch
-vim --with-lua
