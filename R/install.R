@@ -13,6 +13,7 @@ install.packages(c("car",
                    "reshape",
                    "reshape2",
                    "schoRsh",
+                   "roxygen2",
                    "stringr",
                    "tidyr",
                    "yaml"))
