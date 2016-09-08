@@ -2,3 +2,13 @@ let NERDTreeShowHidden=1
 let g:autosave = 1
 :set guifont=Inconsolata-dz:h18
 :set vb
+
+" ----------------------------------------
+" deal with Vim/crontab editing issues
+" based on:
+" http://drawohara.com/post/6344279/crontab-temp-file-must-be-edited-in-place
+" ----------------------------------------
+:if $VIM_CRONTAB == "true"
+:set nobackup
+:set nowritebackup
+:endif
