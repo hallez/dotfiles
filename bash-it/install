@@ -63,15 +63,11 @@ while read -r plugin; do
     bash-it enable plugin "${plugin}"
 done < "${plugins_file}"
 
-echo "  Installing custom bash aliases etc."
-rm -rf "${HOME}/.bash_aliases"
-ln -s "${my_dir}/.bash_aliases" "${HOME}/.bash_aliases"
-
-cat << EOF >> "${HOME}/.bash_profile"
-# Load custom aliases
-[[ -r ${HOME}/.bash_aliases ]] && source ${HOME}/.bash_aliases
-EOF
-
 rm -rf "${HOME}/.inputrc"
 ln -s "${my_dir}/.inputrc" "${HOME}/.inputrc"
 echo "  Installing custom bash aliases etc - done."
+
+echo -en "\e[36mInstalling custom bash scripts...\e[39m "
+rm "${HOME}/.bash_it/custom/"*
+cp "${my_dir}/custom/"* "${HOME}/.bash_it/custom/"
+echo -e "\e[32mdone\e[39m"
