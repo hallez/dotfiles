@@ -2,6 +2,6 @@
 
 set -eu
 
-export MEMOBCDIR=/Volumes/dml/hrzucker/memoBC/
+export MEMOBCDIR=/Volumes/dml/hrzucker/memobc/
 
 set +eu
