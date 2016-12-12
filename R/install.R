@@ -19,4 +19,5 @@ install.packages(c("bitops",
                    "roxygen2",
                    "stringr",
                    "tidyr",
+                   "tidyverse",
                    "yaml"))
