@@ -21,3 +21,5 @@ install.packages(c("bitops",
                    "tidyr",
                    "tidyverse",
                    "yaml"))
+
+devtools::install_github("hallez/halle", subdir="halle")
