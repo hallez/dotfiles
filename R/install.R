@@ -1,6 +1,7 @@
 install.packages(c("bitops",
                    "car",
                    "caTools",
+                   "coin",
                    "devtools",
                    "dplyr",
                    "ez",
