@@ -14,6 +14,7 @@ python
 python3
 R
 ruby-install
+ssh-copy-id
 tmux
 tree
 watch
