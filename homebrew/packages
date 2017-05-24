@@ -5,9 +5,12 @@ findutils
 ghostscript
 git
 git-duet
+gpg
+gpg-agent
 grep
 go
 htop
+keychain
 neovim/neovim/neovim
 pdfgrep
 python
