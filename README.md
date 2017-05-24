@@ -14,3 +14,15 @@ git clone https://github.com/hallez/dotfiles ~/dotfiles
 cd ~/dotfiles
 ./install
 ```
+
+## Yubikey, gpg/ssh and yubishell
+
+Running `yubishell` and inserting the yubikey should generally just work.
+
+If for some reason it does not, the following command will unwedge everything:
+
+```sh
+keychain --stop all --agents ssh,gpg; keychain --stop all --agents ssh,gpg
+```
+
+After this, running `yubishell` should work again.
