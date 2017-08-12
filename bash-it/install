@@ -39,7 +39,7 @@ set +u
 set +ef
 # Shellcheck does not like following non-constant source.
 # shellcheck disable=SC1090
-source "${HOME}/.bash_profile"
+source "${HOME}/.bash_profile" || source "${HOME}/.bashrc"
 set -e
 
 while read -r completion; do
