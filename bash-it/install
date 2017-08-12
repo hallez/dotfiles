@@ -36,10 +36,15 @@ popd
 
 set +u
 
+echo -en "\e[36mInstalling custom .bash_profile...\e[39m "
+rm -rf "${HOME}/.bash_profile"
+ln -s "${my_dir}/.bash_profile" "${HOME}/.bash_profile"
+echo -e "\e[32mdone\e[39m"
+
 set +ef
 # Shellcheck does not like following non-constant source.
 # shellcheck disable=SC1090
-source "${HOME}/.bash_profile" || source "${HOME}/.bashrc"
+source "${HOME}/.bash_profile"
 set -e
 
 while read -r completion; do
