@@ -5,7 +5,9 @@ set -eu
 FSLDIR="/usr/local/fsl"
 export FSLDIR
 
-source "${FSLDIR}/etc/fslconf/fsl.sh"
+if [[ -f "${FSLDIR}/etc/fslconf.sh" ]]; then
+  source "${FSLDIR}/etc/fslconf/fsl.sh"
+fi
 
 PATH="${FSLDIR}/bin:${PATH}"
 export PATH
