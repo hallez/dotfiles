@@ -18,6 +18,7 @@ popd > /dev/null
 echo -e "\e[32mdone\e[39m"
 
 echo -en "\e[36mInstalling custom tmux config...\e[39m"
+mkdir -p $HOME/bin
 rm -rf "$HOME/bin/safe-reattach-to-user-namespace"
 ln -s \
   "${my_dir}/safe-reattach-to-user-namespace" \
