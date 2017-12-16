@@ -47,26 +47,26 @@ set +ef
 source "${HOME}/.bash_profile"
 set -e
 
-while read -r completion; do
-    [[ -z "${completion}" ]] && continue
+# while read -r completion; do
+#     [[ -z "${completion}" ]] && continue
 
-    echo "  Enabling completion: ${completion}."
-    bash-it enable completion "${completion}"
-done < "${completions_file}"
+#     echo "  Enabling completion: ${completion}."
+#     bash-it enable completion "${completion}"
+# done < "${completions_file}"
 
-while read -r alias; do
-    [[ -z "${alias}" ]] && continue
+# while read -r alias; do
+#     [[ -z "${alias}" ]] && continue
 
-    echo "  Enabling alias: ${alias}."
-    bash-it enable alias "${alias}"
-done < "${aliases_file}"
+#     echo "  Enabling alias: ${alias}."
+#     bash-it enable alias "${alias}"
+# done < "${aliases_file}"
 
-while read -r plugin; do
-    [[ -z "${plugin}" ]] && continue
+# while read -r plugin; do
+#     [[ -z "${plugin}" ]] && continue
 
-    echo "  Enabling plugin: ${plugin}."
-    bash-it enable plugin "${plugin}"
-done < "${plugins_file}"
+#     echo "  Enabling plugin: ${plugin}."
+#     bash-it enable plugin "${plugin}"
+# done < "${plugins_file}"
 
 rm -rf "${HOME}/.inputrc"
 ln -s "${my_dir}/.inputrc" "${HOME}/.inputrc"
