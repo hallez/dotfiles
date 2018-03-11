@@ -5,7 +5,7 @@ set -eu
 FSLDIR="/usr/local/fsl"
 export FSLDIR
 
-if [[ -f "${FSLDIR}/etc/fslconf.sh" ]]; then
+if [[ -f "${FSLDIR}/etc/fslconf/fsl.sh" ]]; then
   source "${FSLDIR}/etc/fslconf/fsl.sh"
 fi
 
