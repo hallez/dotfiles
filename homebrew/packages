@@ -2,6 +2,7 @@ ag
 bash
 chruby
 findutils
+ghostscript
 git
 git-duet
 gpg
