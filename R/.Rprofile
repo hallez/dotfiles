@@ -12,3 +12,5 @@
       browserNLdisabled = TRUE,
       deparse.max.lines = 2)
 }
+
+.libPaths("/group/dml/hrzucker/local-r-pkgs/")

@@ -1,4 +1,4 @@
-install.packages(c("bitops",
+install.packages(lib="/group/dml/hrzucker/local-r-pkgs/", c("bitops",
                    "car",
                    "caTools",
                    "coin",
@@ -26,4 +26,4 @@ install.packages(c("bitops",
                    "tidyverse",
                    "yaml"))
 
-devtools::install_github("hallez/halle", subdir="halle")
+devtools::install_github("hallez/halle", subdir="halle",lib="/group/dml/hrzucker/local-r-pkgs/")
