@@ -2,7 +2,7 @@
 
 set -eu
 
-CURRENT_VERSION="R2017a"
+CURRENT_VERSION="R2014b"
 
 alias matlab="/Applications/MATLAB_${CURRENT_VERSION}.app/bin/matlab -nodesktop"
 
