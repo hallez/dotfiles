@@ -12,6 +12,7 @@ go
 htop
 keychain
 neovim/neovim/neovim
+pandoc
 pdfgrep
 python2
 python3
