@@ -17,6 +17,7 @@ pdfgrep
 python2
 python3
 R
+re2
 ruby-install
 ssh-copy-id
 tmux
