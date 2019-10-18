@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
 
+# If not running interactively, don't do anything
+case $- in
+  *i*) ;;
+    *) return;;
+esac
+
 # Path to the bash it configuration
-export BASH_IT="/Users/hrzucker/.bash_it"
+export BASH_IT="${HOME}/.bash_it"
 
 # Lock and Load a custom theme file.
 # Leave empty to disable theming.
