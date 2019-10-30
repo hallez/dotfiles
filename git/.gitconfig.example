@@ -4,6 +4,7 @@
 [alias]
   co = checkout
   ci = duet-commit
+  gst = status
   st = status
   br = branch
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
