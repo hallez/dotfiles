@@ -86,7 +86,7 @@ alias rstudio='open -a Rstudio'
 # based on: https://stackoverflow.com/questions/51295402/r-on-macos-error-vector-memory-exhausted-limit-reached
 echo "R_MAX_VSIZE=100Gb" > $HOME/.Renviron
 
-PS1="\[\n$(clock_prompt) ${green}\w →${reset_color} \]"
+PS1="\n$(clock_prompt) ${green}\w →${reset_color} "
 export PS1
 
 # >>> conda initialize >>>
