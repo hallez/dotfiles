@@ -38,7 +38,7 @@ alias dci="git duet-commit"
 alias gst="git status"
 export GIT_DUET_ROTATE_AUTHOR=1
 
-alias gst="git status"
+alias ll="ls -al"
 
 export ASHS_ROOT=/dml/hrzucker/ashs/
 
