@@ -101,3 +101,5 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+export PATH="/usr/local/anaconda3/bin/:$PATH"
