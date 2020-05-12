@@ -40,8 +40,6 @@ export GIT_DUET_ROTATE_AUTHOR=1
 
 alias ll="ls -al"
 
-export ASHS_ROOT=/dml/hrzucker/ashs/
-
 # Deal with vim editing crontab issues
 # based on solution suggested at:
 # http://drawohara.com/post/6344279/crontab-temp-file-must-be-edited-in-place
