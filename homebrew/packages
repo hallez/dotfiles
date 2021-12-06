@@ -7,7 +7,6 @@ git
 git-duet/tap/git-duet
 gpg
 grep
-go
 htop
 keychain
 neovim
@@ -22,5 +21,4 @@ ssh-copy-id
 starship
 tmux
 tree
---HEAD universal-ctags/universal-ctags/universal-ctags
 watch
