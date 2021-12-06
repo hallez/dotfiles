@@ -19,6 +19,7 @@ R
 re2
 ruby-install
 ssh-copy-id
+starship
 tmux
 tree
 --HEAD universal-ctags/universal-ctags/universal-ctags
