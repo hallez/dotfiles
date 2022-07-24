@@ -21,6 +21,7 @@ htop
 iterm2
 jq
 keychain
+krisp
 microsoft-office
 miniconda
 neovim
@@ -47,4 +48,5 @@ universal-ctags/universal-ctags/universal-ctags --HEAD
 vlc
 watch
 wget
+zoom
 zotero
