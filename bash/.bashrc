@@ -102,4 +102,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 eval "$(starship init bash)"
