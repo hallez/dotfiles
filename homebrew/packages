@@ -12,6 +12,7 @@ findutils
 flux
 flycut
 fribidi
+fzf
 git
 git-duet/tap/git-duet
 google-chrome
@@ -26,6 +27,8 @@ keychain
 krisp
 libgit2
 libtiff
+libomp
+llvm
 microsoft-office
 miniconda
 neovim
