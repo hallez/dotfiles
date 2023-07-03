@@ -48,6 +48,8 @@ work, but are untested.
 Before anything else is run, XCode must be installed from the app store.
 Open XCode and accept the license.
 
+Then, you'll need to install Homebrew. Follow instructions [here](https://brew.sh/)
+
 Once XCode is installed and the license is accepted, run the following:
 
 ```sh
