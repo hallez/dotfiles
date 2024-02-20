@@ -117,3 +117,5 @@ then
    source $HOME/.afni/help/all_progs.COMP.bash
 fi
 
+# set ruby to homebrew install (rather than system version)
+eval "$(rbenv init - bash)"
